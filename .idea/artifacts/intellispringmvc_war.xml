@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="intellispringmvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="intellispringmvc.war">
+      <element id="artifact" artifact-name="intellispringmvc:war exploded" />
+    </root>
+  </artifact>
+</component>
