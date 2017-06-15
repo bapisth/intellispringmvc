@@ -23,22 +23,7 @@
     </div>
     <div class="row">
         <div class="col-sm-offset-4 col-sm-4">
-            <form:form cssClass="form-group" modelAttribute="student" action="student/processForm">
-                <div class="form-group">
-                    <label for="firstName">First Name:</label>
-                    <form:input type="text" class="form-control" id="firstName" path="firstName"/>
-                </div>
-                <div class="form-group">
-                    <label for="lastName">Last Name:</label>
-                    <form:input type="text" class="form-control" id="lastName" path="lastName"/>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password:</label>
-                    <form:input type="password" class="form-control" id="password" path="password"/>
-                </div>
-
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form:form>
+            <a href="student/showForm">Student Form</a>
         </div>
     </div>
 </body>
